@@ -11,15 +11,18 @@ public class I3 {
 
         Scanner eingabewert = new Scanner(System.in);
 
+        //Fordert dein Geburtsjahr ein
         System.out.println("Geben Sie ihr Geburtsjahr ein: ");
         B = eingabewert.nextInt();
 
+        //Rechnet das Alter ein
         int sum = A - B;
 
+        //Ist die Ausgabe
         if (B < A ) {
             System.out.println("Sie sind "+sum+" Jahre alt");
         } else {
-            System.out.println("Sie haben ein nicht mögliches Geburtsjahr angegeben. ");
+            System.out.println("Sie haben ein ungültiges Geburtsjahr angegeben. ");
         }
 
 
